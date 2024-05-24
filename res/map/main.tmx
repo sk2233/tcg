@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="32" height="18" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="40">
+ <objectgroup id="2" name="base">
+  <object id="1" name="player" class="player" x="393" y="610">
+   <point/>
+  </object>
+  <object id="2" name="enemy" class="player" x="1143" y="0">
+   <point/>
+  </object>
+  <object id="3" name="info" class="info" x="0" y="0">
+   <point/>
+  </object>
+  <object id="6" name="round" class="round" x="393" y="0">
+   <point/>
+  </object>
+  <object id="7" name="e6" class="card_area" x="518" y="244">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" name="p6" class="card_area" x="518" y="488">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="e1" class="card_area" x="518" y="122">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="35" name="p1" class="card_area" x="518" y="366">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="e7" class="card_area" x="643" y="244">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="31" name="p7" class="card_area" x="643" y="488">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="e2" class="card_area" x="643" y="122">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="p2" class="card_area" x="643" y="366">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="e8" class="card_area" x="768" y="244">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="p8" class="card_area" x="768" y="488">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" name="e3" class="card_area" x="768" y="122">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="37" name="p3" class="card_area" x="768" y="366">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="10" name="e9" class="card_area" x="893" y="244">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" name="p9" class="card_area" x="893" y="488">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="18" name="e4" class="card_area" x="893" y="122">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" name="p4" class="card_area" x="893" y="366">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="11" name="e10" class="card_area" x="1018" y="244">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="28" name="p10" class="card_area" x="1018" y="488">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="17" name="e5" class="card_area" x="1018" y="122">
+   <properties>
+    <property name="monster" type="bool" value="false"/>
+    <property name="player" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" name="p5" class="card_area" x="1018" y="366">
+   <properties>
+    <property name="monster" type="bool" value="true"/>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="e_deck" class="card_pile" x="393" y="122">
+   <properties>
+    <property name="player" type="bool" value="false"/>
+    <property name="type" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="34" name="p_deck" class="card_pile" x="1143" y="488">
+   <properties>
+    <property name="player" type="bool" value="true"/>
+    <property name="type" type="int" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="24" name="e_cemetery" class="card_pile" x="393" y="244">
+   <properties>
+    <property name="player" type="bool" value="false"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="27" name="p_cemetery" class="card_pile" x="1143" y="366">
+   <properties>
+    <property name="player" type="bool" value="true"/>
+    <property name="type" type="int" value="1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="25" name="e_except" class="card_pile" x="1143" y="244">
+   <properties>
+    <property name="player" type="bool" value="false"/>
+    <property name="type" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="26" name="p_except" class="card_pile" x="393" y="366">
+   <properties>
+    <property name="player" type="bool" value="true"/>
+    <property name="type" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" name="e_extra" class="card_pile" x="1143" y="122">
+   <properties>
+    <property name="player" type="bool" value="false"/>
+    <property name="type" type="int" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="33" name="p_extra" class="card_pile" x="393" y="488">
+   <properties>
+    <property name="player" type="bool" value="true"/>
+    <property name="type" type="int" value="2"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="ui" locked="1">
+  <object id="4" name="tip" class="tip" x="805" y="360">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
